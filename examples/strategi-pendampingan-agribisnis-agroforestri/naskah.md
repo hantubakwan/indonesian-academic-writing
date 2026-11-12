@@ -59,7 +59,7 @@ Dari 55 rekaman, 30 publikasi dipilih berdasarkan relevansinya dengan salah satu
 
 ### 2.3 Analisis dan batas pemeriksaan
 
-Data diekstraksi dari **abstrak** yang tersedia pada hasil penelusuran: konteks, desain, ukuran sampel, dan temuan utama. Teks lengkap tidak dibaca. Oleh karena itu, uraian dalam artikel ini dibatasi pada apa yang dinyatakan dalam abstrak, dan angka yang dikutip berasal dari abstrak. Penilaian mutu metodologis secara formal tidak dilakukan. Sumber kemudian dikelompokkan menurut tema dan dibandingkan untuk mencari titik temu, perbedaan, dan celah, lalu diturunkan menjadi proposisi dan kerangka strategi.
+Data diekstraksi dari **abstrak** yang tersedia pada hasil penelusuran: konteks, desain, ukuran sampel, dan temuan utama. Teks lengkap tidak dibaca. Oleh karena itu, uraian dalam artikel ini dibatasi pada apa yang dinyatakan dalam abstrak, dan angka yang dikutip berasal dari abstrak. Metadata bibliografis setiap sumber kemudian dicocokkan dengan Crossref REST API. Penilaian mutu metodologis secara formal tidak dilakukan. Sumber kemudian dikelompokkan menurut tema dan dibandingkan untuk mencari titik temu, perbedaan, dan celah, lalu diturunkan menjadi proposisi dan kerangka strategi.
 
 ## 3. Kerangka Konseptual
 
@@ -85,7 +85,7 @@ Agroforestri berbeda dari usaha tani komoditas tunggal dalam tiga hal yang berim
 
 Literatur adopsi agroforestri menunjukkan pola yang relatif konsisten. Tranchina dkk. (2024) mengategorikan 31 kendala dari 90 studi berbasis metode partisipatif. Lima kendala yang paling sering muncul adalah ketersediaan atau mutu pengetahuan teknis, persoalan pasar dan rantai pasok, kebutuhan tenaga kerja dan waktu, investasi awal dan modal, serta ketersediaan dukungan teknis. Tiga dari lima kendala tersebut, yaitu pengetahuan, pasar, dan dukungan teknis, berada dalam jangkauan penyuluhan dan kelembagaan petani.
 
-Studi-studi pada tingkat rumah tangga di berbagai negara menemukan asosiasi positif antara akses penyuluhan dan keanggotaan kelompok dengan adopsi agroforestri, misalnya di Nepal (Dhakal dkk., 2020) dan Rwanda melalui keanggotaan koperasi (Ngango dkk., 2023). Di Tanzania, hanya 10,19% dari 697 petani yang dilaporkan menanam pohon baru dan aktif mempraktikkan agroforestri; partisipasi dalam proyek dan adanya sumber bibit meningkatkan peluang adopsi (Jha dkk., 2021). Desain studi-studi tersebut umumnya potong lintang sehingga hubungan yang dilaporkan perlu dibaca sebagai asosiasi, bukan pengaruh kausal.
+Studi-studi pada tingkat rumah tangga di berbagai negara menemukan asosiasi positif antara akses penyuluhan dan keanggotaan kelompok dengan adopsi agroforestri, misalnya di Nepal (Dhakal & Rai, 2020) dan Rwanda melalui keanggotaan koperasi (Ngango dkk., 2023). Di Tanzania, hanya 10,19% dari 697 petani yang dilaporkan menanam pohon baru dan aktif mempraktikkan agroforestri; partisipasi dalam proyek dan adanya sumber bibit meningkatkan peluang adopsi (Jha dkk., 2021). Desain studi-studi tersebut umumnya potong lintang sehingga hubungan yang dilaporkan perlu dibaca sebagai asosiasi, bukan pengaruh kausal.
 
 Satu temuan membedakan **adopsi** dari **keberlanjutan praktik**. Grovermann dkk. (2023), menggunakan data hampir 3.000 rumah tangga di Mali dan Senegal, melaporkan bahwa akses penyuluhan dan pelatihan meningkatkan kesadaran tentang agroforestri, sedangkan pertukaran antarpetani di komunitas menjadi faktor kunci dalam keputusan untuk tetap mempraktikkannya. Temuan ini mengisyaratkan bahwa penyuluhan formal mungkin lebih berperan pada tahap awal, sedangkan jaringan belajar di dalam kelompok berperan dalam mempertahankan praktik.
 
@@ -103,7 +103,7 @@ Bukti dari Indonesia umumnya menunjukkan hubungan positif antara peran penyuluh 
 
 Namun, temuan tersebut tidak seragam. Nurfathiyah dkk. (2026) melaporkan bahwa peran penyuluh justru berpengaruh negatif signifikan terhadap efektivitas kelompok tani padi di Jambi, sedangkan gaya kepemimpinan berpengaruh positif. Penulisnya menafsirkan hasil tersebut sebagai tanda bahwa pendekatan penyuluhan yang ada belum menjawab kebutuhan petani dan merekomendasikan reorientasi ke penyuluhan berbasis permintaan (*demand-driven*). Lestari dkk. (2026) menemukan bahwa penyuluh dan program kelompok tidak berpengaruh signifikan secara terpisah terhadap perilaku petani perempuan di Sragen, tetapi berpengaruh signifikan bila digabungkan. Dua temuan ini menunjukkan bahwa yang menentukan bukan sekadar kehadiran penyuluh, melainkan cara pendampingan dijalankan dan keterpaduannya dengan kegiatan kelompok.
 
-Hubungan kelembagaan dengan akses pasar diperlihatkan paling jelas oleh Permadi dkk. (2025) pada 249 petani pisang kepok di Seruyan, Kalimantan Tengah. Kapasitas manajerial berpengaruh signifikan terhadap peran kelompok tani (β = 0,494; p < 0,001), sedangkan motivasi anggota tidak signifikan (β = 0,076; p = 0,290). Peran kelompok tani berpengaruh terhadap aksi kolektif (β = 0,616; p < 0,001) dan akses pasar (β = 0,240; p < 0,001), dan aksi kolektif berpengaruh terhadap akses pasar (β = 0,479; p < 0,001). Komoditas dalam studi ini bukan agroforestri, sehingga penerapannya pada agroforestri masih perlu diuji. Walaupun demikian, temuan tersebut mengarahkan sasaran pendampingan pada kapasitas manajerial pengurus, bukan hanya pada motivasi anggota.
+Hubungan kelembagaan dengan akses pasar diperlihatkan paling jelas oleh Permadi & Winarti (2025) pada 249 petani pisang kepok di Seruyan, Kalimantan Tengah. Kapasitas manajerial berpengaruh signifikan terhadap peran kelompok tani (β = 0,494; p < 0,001), sedangkan motivasi anggota tidak signifikan (β = 0,076; p = 0,290). Peran kelompok tani berpengaruh terhadap aksi kolektif (β = 0,616; p < 0,001) dan akses pasar (β = 0,240; p < 0,001), dan aksi kolektif berpengaruh terhadap akses pasar (β = 0,479; p < 0,001). Komoditas dalam studi ini bukan agroforestri, sehingga penerapannya pada agroforestri masih perlu diuji. Walaupun demikian, temuan tersebut mengarahkan sasaran pendampingan pada kapasitas manajerial pengurus, bukan hanya pada motivasi anggota.
 
 ### 4.4 Batas manfaat organisasi petani
 
@@ -147,7 +147,7 @@ Fase penilaian dalam *Participatory Market Chain Approach* (PMCA), yang mengiden
 
 ### 5.2 Tahap 2: Penguatan tata kelola dan kepemimpinan
 
-Tahap ini menyasar kapasitas manajerial pengurus dan aturan internal. Prioritas ini didukung oleh temuan bahwa kapasitas manajerial, bukan motivasi anggota, berhubungan dengan peran kelompok (Permadi dkk., 2025), dan bahwa gaya kepemimpinan berpengaruh positif terhadap efektivitas kelompok (Nurfathiyah dkk., 2026; Shaliza dkk., 2025). Kegiatan yang dapat dilakukan meliputi penyusunan atau revisi AD/ART secara partisipatif, pembagian peran pengurus, pencatatan keuangan dan pembukuan usaha tani, rapat berkala, serta mekanisme transparansi dan penyelesaian konflik.
+Tahap ini menyasar kapasitas manajerial pengurus dan aturan internal. Prioritas ini didukung oleh temuan bahwa kapasitas manajerial, bukan motivasi anggota, berhubungan dengan peran kelompok (Permadi & Winarti, 2025), dan bahwa gaya kepemimpinan berpengaruh positif terhadap efektivitas kelompok (Nurfathiyah dkk., 2026; Shaliza dkk., 2025). Kegiatan yang dapat dilakukan meliputi penyusunan atau revisi AD/ART secara partisipatif, pembagian peran pengurus, pencatatan keuangan dan pembukuan usaha tani, rapat berkala, serta mekanisme transparansi dan penyelesaian konflik.
 
 Pendamping berperan sebagai fasilitator, bukan pengambil keputusan. Peran ini sejalan dengan rekomendasi agar penyuluhan menekankan fungsi fasilitasi dan intervensi yang sesuai konteks (Nurfathiyah dkk., 2026).
 
@@ -218,71 +218,71 @@ Kajian ini memiliki lima keterbatasan. Pertama, penelusuran hanya menggunakan sa
 
 Gaya: APA edisi ke-7 (asumsi; sesuaikan dengan pedoman tujuan).
 
-> **Catatan verifikasi.** Metadata di bawah berasal dari rekaman Consensus: judul, penulis pertama, tahun, dan nama jurnal. Layanan tersebut hanya menampilkan penulis pertama, dan verifikasi melalui Crossref tidak dapat dilakukan karena akses jaringan diblokir. Karena itu, **nama penulis lengkap, volume, nomor, halaman, dan DOI belum diverifikasi** dan ditandai `[perlu dilengkapi]`. Tautan Consensus dicantumkan untuk penelusuran. Lengkapi entri dari laman penerbit sebelum naskah dikirim.
+> **Catatan verifikasi.** Metadata bibliografis (penulis, tahun, judul, wadah publikasi, volume, nomor, halaman atau nomor artikel, dan DOI) dicocokkan dengan Crossref REST API pada 12 November 2026. Kecocokan judul, penulis pertama, tahun, dan jurnal diperiksa untuk setiap entri. Pemeriksaan ini memverifikasi **identitas** karya, bukan **isi**: dukungan sumber terhadap klaim dalam naskah masih berdasarkan abstrak. Catatan khusus: (a) Komariyati dkk. (2026) belum memiliki volume dan halaman di Crossref sehingga ditulis sebagai terbitan daring lebih awal; (b) volume dan nomor Nurfathiyah dkk. (2026) diturunkan dari pola DOI karena tidak tercatat di Crossref, dan perlu dicek pada laman jurnal; (c) halaman akhir Gangkur dkk. (2023) tidak tercatat di Crossref; (d) Crossref mencatat artikel Mulyana dkk. dengan judul yang hampir sama di dua jurnal pada 2026 (*Jurnal Mahasiswa Agribisnis* dan *Mimbar Agribisnis*). Naskah ini mengutip versi *Jurnal Mahasiswa Agribisnis*; kemungkinan publikasi ganda sebaiknya diperiksa sebelum sumber ini dipertahankan. Regulasi belum diverifikasi pada sumber resmi.
 
-Achmad, B., dkk. [perlu dilengkapi]. (2022). Traditional subsistence farming of smallholder agroforestry systems in Indonesia: A review. *Sustainability*, [vol(no), hlm./no. artikel, DOI perlu dilengkapi]. https://consensus.app/papers/details/w:4e8fb79f-b6f3-4dc2-b0e3-437755ee6008/
+Achmad, B., Sanudin, Siarudin, M., Widiyanto, A., Diniyati, D., Sudomo, A., Hani, A., Fauziyah, E., Suhaendah, E., Widyaningsih, T. S., Handayani, W., Maharani, D., Suhartono, Palmolina, M., Swestiani, D., Budi Santoso Sulistiadi, H., Winara, A., Nur, Y. H., Diana, M., . . . Ruswandi, A. (2022). Traditional subsistence farming of smallholder agroforestry systems in Indonesia: A review. *Sustainability*, *14*(14), Article 8631. https://doi.org/10.3390/su14148631
 
-Aini, Q. H. (2026). Drivers and barriers to agroforestry adoption among forest farmers: A systematic review. *Trend and Future of Agribusiness*, [perlu dilengkapi]. https://consensus.app/papers/details/w:8103a8c0-2553-4967-92be-cfeec9280d4f/
+Aini, Q. H. (2026). Drivers and barriers to agroforestry adoption among forest farmers: A systematic review. *Trend and Future of Agribusiness*, *3*(1), 58–75. https://doi.org/10.61511/tafoa.v3i1.2026.3152
 
-Bizikova, L., dkk. [perlu dilengkapi]. (2020). A scoping review of the contributions of farmers' organizations to smallholder agriculture. *Nature Food*, [perlu dilengkapi]. https://consensus.app/papers/details/w:854da042-9d55-4136-b711-eefac6032fa6/
+Bizikova, L., Nkonya, E., Minah, M., Hanisch, M., Turaga, R. M. R., Speranza, C. I., Karthikeyan, M., Tang, L., Ghezzi-Kopel, K., Kelly, J., Celestin, A. C., & Timmers, B. (2020). A scoping review of the contributions of farmers' organizations to smallholder agriculture. *Nature Food*, *1*(10), 620–630. https://doi.org/10.1038/s43016-020-00164-x
 
-Budiadi, dkk. [perlu dilengkapi]. (2019). Oil palm agroforestry: An alternative to enhance farmers' livelihood resilience. *IOP Conference Series: Earth and Environmental Science*, [perlu dilengkapi]. https://consensus.app/papers/details/w:d8278ff2-9ec1-4973-a0fd-4af6b31387fb/
+Budiadi, Susanti, A., Marhaento, H., Ali Imron, M., Permadi, D. B., & Hermudananto. (2019). Oil palm agroforestry: An alternative to enhance farmers' livelihood resilience. *IOP Conference Series: Earth and Environmental Science*, *336*(1), Article 012001. https://doi.org/10.1088/1755-1315/336/1/012001
 
-Dhakal, A., dkk. [perlu dilengkapi]. (2020). Who adopts agroforestry in a subsistence economy?—Lessons from the Terai of Nepal. *Forests*, [perlu dilengkapi]. https://consensus.app/papers/details/w:a5e2be2a-d661-49e1-bcc7-f3f24c1e6111/
+Dhakal, A., & Rai, R. K. (2020). Who adopts agroforestry in a subsistence economy?—Lessons from the Terai of Nepal. *Forests*, *11*(5), Article 565. https://doi.org/10.3390/f11050565
 
-Duffy, C. P., dkk. [perlu dilengkapi]. (2021). Agroforestry contributions to smallholder farmer food security in Indonesia. *Agroforestry Systems*, [perlu dilengkapi]. https://consensus.app/papers/details/w:5e0017fc-7033-49f6-9cef-ebd8a87d9ab2/
+Duffy, C., Toth, G. G., Hagan, R. P. O., McKeown, P. C., Rahman, S. A., Widyaningsih, Y., Sunderland, T. C. H., & Spillane, C. (2021). Agroforestry contributions to smallholder farmer food security in Indonesia. *Agroforestry Systems*, *95*(6), 1109–1124. https://doi.org/10.1007/s10457-021-00632-8
 
-Gangkur, F., dkk. [perlu dilengkapi]. (2023). Penguatan kelompok tani melalui upaya pemahaman hakikat kelompok tani. *JMM (Jurnal Masyarakat Mandiri)*, [perlu dilengkapi]. https://consensus.app/papers/details/w:7e9b0db0-b750-4014-afd3-277edc4c0066/
+Gangkur, F., Cordanis, A. P., & Jandu, I. H. (2023). Penguatan kelompok tani melalui upaya pemahaman hakikat kelompok tani. *JMM (Jurnal Masyarakat Mandiri)*, *7*(3), 2756. https://doi.org/10.31764/jmm.v7i3.14887
 
-Grovermann, C., dkk. [perlu dilengkapi]. (2023). Uptake of agroforestry-based crop management in the semi-arid Sahel – Analysis of joint decisions and adoption determinants. *Frontiers in Sustainable Food Systems*, [perlu dilengkapi]. https://consensus.app/papers/details/w:296c1edd-4489-4414-9935-e46178cac965/
+Grovermann, C., Rees, C., Beye, A., Wossen, T., Abdoulaye, T., & Cicek, H. (2023). Uptake of agroforestry-based crop management in the semi-arid Sahel – Analysis of joint decisions and adoption determinants. *Frontiers in Sustainable Food Systems*, *7*, Article 1042551. https://doi.org/10.3389/fsufs.2023.1042551
 
-Harjanto, P., dkk. [perlu dilengkapi]. (2022). Institutional development of farmers through agricultural area-based corporations in Indonesia. *IOP Conference Series: Earth and Environmental Science*, [perlu dilengkapi]. https://consensus.app/papers/details/w:322af4fe-50a1-4c91-a86b-409d103f9ffb/
+Harjanto, P., Fahmid, I. M., Ali, S., & Demmallino, E. B. (2022). Institutional development of farmers through agricultural area-based corporations in Indonesia. *IOP Conference Series: Earth and Environmental Science*, *1114*(1), Article 012039. https://doi.org/10.1088/1755-1315/1114/1/012039
 
-Jha, S., dkk. [perlu dilengkapi]. (2021). Factors influencing the adoption of agroforestry by smallholder farmer households in Tanzania: Case studies from Morogoro and Dodoma. *Land Use Policy*, [perlu dilengkapi]. https://consensus.app/papers/details/w:2c3c9c80-5693-4a72-a669-ce93f7860ce2/
+Jha, S., Kaechele, H., & Sieber, S. (2021). Factors influencing the adoption of agroforestry by smallholder farmer households in Tanzania: Case studies from Morogoro and Dodoma. *Land Use Policy*, *103*, Article 105308. https://doi.org/10.1016/j.landusepol.2021.105308
 
-Kanwat, M., dkk. [perlu dilengkapi]. (2026). Economics of farmer producer organisations: Collective action, market power and smallholder transformation. *Journal of Experimental Agriculture International*, [perlu dilengkapi]. https://consensus.app/papers/details/w:16975318-5819-4657-9c7e-1dad075e881a/
+Kanwat, M., Kumar, S., Kh, N., & Gogoi, K. (2026). Economics of farmer producer organisations: Collective action, market power and smallholder transformation. *Journal of Experimental Agriculture International*, *48*(10), 436–455. https://doi.org/10.9734/jeai/2026/v48i104538
 
-Komariyati, K., dkk. [perlu dilengkapi]. (2026). Agricultural extension and farmer group performance: Empirical evidence from Kubu Raya District, Indonesia. *Agricultural Science Digest – A Research Journal*, [perlu dilengkapi]. https://consensus.app/papers/details/w:dc8cf9c4-f9d8-406c-8560-86478e3dd6aa/
+Komariyati, K., Sawerah, S., Mahmudi, M., & Atmojo, S. T. (2026). Agricultural extension and farmer group performance: Empirical evidence from Kubu Raya District, Indonesia. *Agricultural Science Digest – A Research Journal*. Advance online publication. https://doi.org/10.18805/ag.df-809
 
-Kurniawan, B. P. Y., dkk. [perlu dilengkapi]. (2023). A theoretical model for increasing coffee farmers groups' institutional capacity in Jember, Indonesia. *Universal Journal of Agricultural Research*, [perlu dilengkapi]. https://consensus.app/papers/details/w:4b28c7d9-fe6c-44f3-bd4f-0c73b740a520/
+Kurniawan, B. P. Y., Wardati, I., & Nurcahyono, N. (2023). A theoretical model for increasing coffee farmers groups' institutional capacity in Jember, Indonesia. *Universal Journal of Agricultural Research*, *11*(5), 822–828. https://doi.org/10.13189/ujar.2023.110507
 
-Lestari, R. D., dkk. [perlu dilengkapi]. (2026). Synergistic role of extension and group programs in women farmers' behavior: A case study in Sragen. *Jurnal Pemberdayaan Masyarakat*, [perlu dilengkapi]. https://consensus.app/papers/details/w:efdaa6ab-ef7d-4d2b-9901-028e5613d204/
+Lestari, R. D., Rahyunanto, S., Mogan, J. N., Purnomo, S., & Waluyo, S. E. (2026). Synergistic role of extension and group programs in women farmers' behavior: A case study in Sragen. *Jurnal Pemberdayaan Masyarakat*, *5*(1), 83–98. https://doi.org/10.46843/jpm.v5i1.685
 
-Markelova, H., dkk. [perlu dilengkapi]. (2009). Collective action for smallholder market access. *Food Policy*, [perlu dilengkapi]. https://consensus.app/papers/details/w:7867e774-92bd-4006-aa62-67eab53a30d2/ [Consensus mencatat tahun 2008; tahun terbit cetak perlu diverifikasi]
+Markelova, H., Meinzen-Dick, R., Hellin, J., & Dohrn, S. (2009). Collective action for smallholder market access. *Food Policy*, *34*(1), 1–7. https://doi.org/10.1016/j.foodpol.2008.10.001
 
-Mulyana, E., dkk. [perlu dilengkapi]. (2026). Strategic roles of agricultural extension agents and information technology utilization in rice farmer group development in Teluk Kecapi Ogan Ilir. *Jurnal Mahasiswa Agribisnis*, [perlu dilengkapi]. https://consensus.app/papers/details/w:3d71ff42-9b38-4637-9eda-6671be37f66a/
+Mulyana, E., Sari, Y., Sulastri, M. A., & Futri, A. (2026). Strategic roles of agricultural extension agents and information technology utilization in rice farmer group development in Teluk Kecapi Ogan Ilir. *Jurnal Mahasiswa Agribisnis*, *5*(1), 24–35. https://doi.org/10.29103/jma.v5i1.27340
 
-Mulyoutami, E., dkk. [perlu dilengkapi]. (2024). Towards a sustainable business model for rubber agroforestry in Indonesia. *Tropical Forest Issues*, [perlu dilengkapi]. https://consensus.app/papers/details/w:b14d510b-c0f5-4e04-88d4-10e030115563/
+Mulyoutami, E., Mawesti, D., Triana, Purwanto, E., & Widayati, A. (2024). Towards a sustainable business model for rubber agroforestry in Indonesia. *Tropical Forest Issues*, (62). https://doi.org/10.55515/kuxt7092
 
-Ngango, J., dkk. [perlu dilengkapi]. (2023). Examining the adoption of agroforestry in Southern Rwanda: A double hurdle approach. *Forest Science and Technology*, [perlu dilengkapi]. https://consensus.app/papers/details/w:d4ec81b5-d495-4fc4-8f53-5bf0fce241c9/
+Ngango, J., Musabanganji, E., Maniriho, A., Nkikabahizi, F., & Mukamuhire, A. (2023). Examining the adoption of agroforestry in Southern Rwanda: A double hurdle approach. *Forest Science and Technology*, *19*(4), 260–267. https://doi.org/10.1080/21580103.2023.2254317
 
-Nurfathiyah, P., dkk. [perlu dilengkapi]. (2026). Determinants of farmer group effectiveness in implementing of lowland rice cultivation techniques. *Jurnal AGRISEP: Kajian Masalah Sosial Ekonomi Pertanian dan Agribisnis*, [perlu dilengkapi]. https://consensus.app/papers/details/w:51aaa50d-c3fc-44ef-af1c-e7457aa48d83/
+Nurfathiyah, P., Nurdiansyah, F., Zakiah, Z., Jamaluddin, J., Arianti, D., & Utami Lestari, S. (2026). Determinants of farmer group effectiveness in implementing of lowland rice cultivation techniques. *Jurnal AGRISEP: Kajian Masalah Sosial Ekonomi Pertanian dan Agribisnis*, *25*(2), 519–546. https://doi.org/10.31186/jagrisep.25.2.519-546
 
 Peraturan Menteri Pertanian Nomor 67 Tahun 2016 tentang Pembinaan Kelembagaan Petani. [Metadata dan pasal yang relevan perlu diverifikasi pada sumber resmi.]
 
-Permadi, R., dkk. [perlu dilengkapi]. (2025). Enhancing market access for smallholder farmers in Indonesia: The role of managerial capacity and member motivation in collective action within farmer groups. *Agris On-line Papers in Economics and Informatics*, [perlu dilengkapi]. https://consensus.app/papers/details/w:cd5f25fa-cdbe-4f96-97ee-0da34e687452/
+Permadi, R., & Winarti, L. (2025). Enhancing market access for smallholder farmers in Indonesia: The role of managerial capacity and member motivation in collective action within farmer groups. *Agris On-line Papers in Economics and Informatics*, *17*(4), 101–115. https://doi.org/10.7160/aol.2025.170408
 
-Rusadi, N., dkk. [perlu dilengkapi]. (2025). Rantai nilai komoditas kopi dalam skema perhutanan sosial: Studi kasus kelompok tani hutan di Kindang, Sulawesi Selatan. *Indo-Fintech Intellectuals: Journal of Economics and Business*, [perlu dilengkapi]. https://consensus.app/papers/details/w:d09d24a5-53ec-482e-9e0d-8d077329039a/
+Rusadi, N., Gare, K. F. S., Marisi, & Sari, P. (2025). Rantai nilai komoditas kopi dalam skema perhutanan sosial: Studi kasus kelompok tani hutan di Kindang, Sulawesi Selatan. *Indo-Fintech Intellectuals: Journal of Economics and Business*, *5*(3), 6511–6524. https://doi.org/10.54373/ifijeb.v5i3.3849
 
-Sabirin, dkk. [perlu dilengkapi]. (2026). Analysis of the role of agricultural extension workers in the development of farmer groups. *International Journal of Advanced Technology and Social Sciences*, [perlu dilengkapi]. https://consensus.app/papers/details/w:e8742c11-cee2-4e7e-9e2d-7e4ede2943f9/
+Sabirin, Aswan, N., & Widiasyih, A. S. (2026). Analysis of the role of agricultural extension workers in the development of farmer groups. *International Journal of Advanced Technology and Social Sciences*, *4*(3), 353–362. https://doi.org/10.59890/ijatss.v4i3.206
 
-Saediman, H. (2026). Financing status in the cocoa agribusiness value chain in Southeast Sulawesi. *International Journal of Sustainable Applied Sciences*, [perlu dilengkapi]. https://consensus.app/papers/details/w:81346acf-6aa0-43d9-83dd-9099d255c7ee/
+Saediman, H. (2026). Financing status in the cocoa agribusiness value chain in Southeast Sulawesi. *International Journal of Sustainable Applied Sciences*, *4*(1), 79–96. https://doi.org/10.59890/ijsas.v4i1.296
 
-Shaliza, F., dkk. [perlu dilengkapi]. (2025). The synergy of agricultural extension and farmer group leadership in promoting farmers' independence in the digital era. *BIO Web of Conferences*, [perlu dilengkapi]. https://consensus.app/papers/details/w:34a713be-4b3b-47b7-a6bc-ec503a182a5a/
+Shaliza, F., Sumardjo, S., Sadono, D., & Uchrowi, Z. (2025). The synergy of agricultural extension and farmer group leadership in promoting farmers' independence in the digital era. *BIO Web of Conferences*, *186*, Article 02007. https://doi.org/10.1051/bioconf/202518602007
 
-Shiferaw, B. A., dkk. [perlu dilengkapi]. (2011). Improving market access and agricultural productivity growth in Africa: What role for producer organizations and collective action institutions? *Food Security*, [perlu dilengkapi]. https://consensus.app/papers/details/w:bdfebda4-d2b3-4fb6-abc3-1b715128f3a9/
+Shiferaw, B., Hellin, J., & Muricho, G. (2011). Improving market access and agricultural productivity growth in Africa: What role for producer organizations and collective action institutions? *Food Security*, *3*(4), 475–489. https://doi.org/10.1007/s12571-011-0153-0
 
-Sudomo, A., dkk. [perlu dilengkapi]. (2023). Can agroforestry contribute to food and livelihood security for Indonesia's smallholders in the climate change era? *Agriculture*, [perlu dilengkapi]. https://consensus.app/papers/details/w:4b91b2b4-8245-4380-8dc6-719a940a4051/
+Sudomo, A., Leksono, B., Tata, H. L., Rahayu, A. A. D., Umroni, A., Rianawati, H., Asmaliyah, Krisnawati, Setyayudi, A., Utomo, M. M. B., Pieter, L. A. G., Wresta, A., Indrajaya, Y., Rahman, S. A., & Baral, H. (2023). Can agroforestry contribute to food and livelihood security for Indonesia's smallholders in the climate change era? *Agriculture*, *13*(10), Article 1896. https://doi.org/10.3390/agriculture13101896
 
-Ton, G. (2008). Challenges for smallholder market access: A review of literature on institutional arrangements in collective marketing. *Stewart Postharvest Review*, [perlu dilengkapi]. https://consensus.app/papers/details/w:19402d20-f861-497f-9c71-07c71faa6162/
+Ton, G. (2008). Challenges for smallholder market access: A review of literature on institutional arrangements in collective marketing. *Stewart Postharvest Review*, *4*(5), 1–6. https://doi.org/10.2212/spr.2008.5.1
 
-Tranchina, M., dkk. [perlu dilengkapi]. (2024). What challenges impede the adoption of agroforestry practices? A global perspective through a systematic literature review. *Agroforestry Systems*, [perlu dilengkapi]. https://consensus.app/papers/details/w:aa4b745f-a48f-4dba-bb4b-5b1d9cff9001/
+Tranchina, M., Reubens, B., Frey, M., Mele, M., & Mantino, A. (2024). What challenges impede the adoption of agroforestry practices? A global perspective through a systematic literature review. *Agroforestry Systems*, *98*(6), 1817–1837. https://doi.org/10.1007/s10457-024-00993-w
 
 Undang-Undang Republik Indonesia Nomor 16 Tahun 2006 tentang Sistem Penyuluhan Pertanian, Perikanan, dan Kehutanan. [Metadata Lembaran Negara perlu diverifikasi pada sumber resmi.]
 
-Utomo, M. R., dkk. [perlu dilengkapi]. (2026). From demonstration to adoption: Participatory agroforestry transition in East Java, Indonesia. *Cerrado*, [perlu dilengkapi]. https://consensus.app/papers/details/w:fece7114-52b6-441d-b2e1-c30cef234c37/
+Utomo, M. R., Kustanti, A., Siswantoro, A., & Laili, F. (2026). From demonstration to adoption: Participatory agroforestry transition in East Java, Indonesia. *Cerrado: Agricultural and Biological Research*, *3*(2), 32–43. https://doi.org/10.14295/cerrado.v3i2.878
 
-Wisudayati, T. A., dkk. [perlu dilengkapi]. (2021). The capacity building of an agroforestry demonstration plot: Participatory market chain approach. *IOP Conference Series: Earth and Environmental Science*, [perlu dilengkapi]. https://consensus.app/papers/details/w:16bbcc1e-a70c-4110-9f50-cc9fee3fb175/
+Wisudayati, T. A., Danu, Octavia, D., Hendarto, K. A., Sianturi, R. U. D., Megawati, & Desmiwati. (2021). The capacity building of an agroforestry demonstration plot: Participatory market chain approach. *IOP Conference Series: Earth and Environmental Science*, *917*(1), Article 012036. https://doi.org/10.1088/1755-1315/917/1/012036
 
 ---
 
@@ -307,12 +307,12 @@ Isi matriks berasal dari abstrak. Kolom "Hubungan" merupakan penilaian penulis k
 | Komariyati dkk. (2026) | Kubu Raya, 37 penyuluh | Chi-kuadrat | Aktivitas penyuluh berhubungan dengan kinerja kelompok (C = 0,93) | Mendukung; desain asosiatif |
 | Nurfathiyah dkk. (2026) | Padi, Jambi; 65 responden | SEM | Peran penyuluh berpengaruh negatif; kepemimpinan positif | Membatasi: perlu penyuluhan berbasis kebutuhan |
 | Lestari dkk. (2026) | Petani perempuan, Sragen; 120 orang | Regresi berganda | Efek hanya signifikan bila penyuluh dan program kelompok digabung | Mendukung keterpaduan |
-| Permadi dkk. (2025) | Pisang kepok, Seruyan; 249 petani | PLS-SEM | Kapasitas manajerial → peran kelompok → aksi kolektif → akses pasar | Dasar tahap 2–3; bukan komoditas agroforestri |
+| Permadi & Winarti (2025) | Pisang kepok, Seruyan; 249 petani | PLS-SEM | Kapasitas manajerial → peran kelompok → aksi kolektif → akses pasar | Dasar tahap 2–3; bukan komoditas agroforestri |
 | Mulyana dkk. (2026) | Padi, Ogan Ilir | Survei, korelasi Spearman | Pemanfaatan TI penyuluh berhubungan dengan perkembangan kelompok | Prasyarat lintas tahap |
 | Saediman (2026) | Kakao, Sulawesi Tenggara | Survei, wawancara, FGD | Pembiayaan petani bergantung pada kredit pedagang | Dasar fungsi pembiayaan tahap 3 |
 | Tranchina dkk. (2024) | Global; 90 studi | Tinjauan sistematis (PRISMA) | 31 kendala; lima yang paling sering | Dasar analisis hambatan |
 | Aini (2026) | Petani hutan | Tinjauan sistematis 2020–2025 | Empat pilar; kepastian lahan perhutanan sosial | Prasyarat lintas tahap |
-| Dhakal dkk. (2020) | Nepal; 288 rumah tangga | Regresi logistik multinomial | Penyuluhan dan keanggotaan kelompok positif | Mendukung |
+| Dhakal & Rai (2020) | Nepal; 288 rumah tangga | Regresi logistik multinomial | Penyuluhan dan keanggotaan kelompok positif | Mendukung |
 | Grovermann dkk. (2023) | Mali dan Senegal; ±3.000 rumah tangga | Ekonometrika | Pertukaran antarpetani penting untuk mempertahankan praktik | Dasar tahap 4 |
 | Jha dkk. (2021) | Tanzania; 697 petani | Logit | Adopsi 10,19%; partisipasi proyek dan sumber bibit | Mendukung |
 | Ngango dkk. (2023) | Rwanda; 615 petani | *Double hurdle* | Keanggotaan koperasi dan akses kredit | Mendukung |
